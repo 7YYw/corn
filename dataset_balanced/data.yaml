@@ -1,0 +1,6 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 4
+names: ['blight（疫病）', 'common_rust（普通锈病）', 'gray_spot（灰斑病）', 'health（健康）']

@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_ghostslim.py)",
+      "Bash(python -c ' *)",
+      "Read(//c/Users/yywYYW/.pyenv/shims/**)",
+      "Read(//e//**)",
+      "Bash(python -c \"import torch; ckpt = torch.load\\('yolo26n.pt', map_location='cpu'\\); print\\('Keys:', list\\(ckpt.keys\\(\\)\\)\\)\")",
+      "Bash(rm -f \"E:/毕业设计/corn-main1/yolo26n.pt\")",
+      "Bash(python -c \"from ultralytics.nn.modules import C2PSADiff, LSKA, DiffAttention, PSABlockDiff; print\\('All imports successful'\\)\")",
+      "Bash(pip list *)",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('train_improvements.py'\\).read\\(\\)\\); print\\('Syntax OK'\\)\")",
+      "Bash(python -c \"import ast; ast.parse\\(open\\('train_improvements.py', encoding='utf-8'\\).read\\(\\)\\); print\\('Syntax OK'\\)\")",
+      "Bash(awk '{print $1}')",
+      "Bash(awk *)",
+      "Bash(python3 *)",
+      "Bash(/c/Users/yywYYW/AppData/Local/Programs/Python/Python*/python.exe --version)",
+      "Bash(python *)",
+      "Bash(sed 's/.*\\\\.//')",
+      "Bash(taskkill -f -im curl.exe)",
+      "Bash(powershell *)",
+      "Bash(cmd /c \"del /f yolov8n.pt\")",
+      "Bash(cmd //c \"del /f yolov8n.pt\")",
+      "Bash(handle -a)",
+      "Bash(cmd //c \"handle -a\")",
+      "Bash(python.exe -c ' *)"
+    ]
+  }
+}
